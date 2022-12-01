@@ -1,0 +1,854 @@
+[INFO ] 2022-11-27 19:41:33.026 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 7872 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 19:41:33.059 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 19:41:33.061 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 2022-11-27 19:41:34.558 [main] GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes\ru\netology\cardtransferback\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.cardtransferback.service.TransactionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[INFO ] 2022-11-27 19:41:58.364 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 4368 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 19:41:58.388 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 19:41:58.391 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 2022-11-27 19:41:59.590 [main] GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes\ru\netology\cardtransferback\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.cardtransferback.service.TransactionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[INFO ] 2022-11-27 19:41:59.600 [main] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2022-11-27 19:41:59.711 [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.netology.cardtransferback.controller.TransferController required a bean of type 'ru.netology.cardtransferback.service.TransactionService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.netology.cardtransferback.service.TransactionService' in your configuration.
+
+[INFO ] 2022-11-27 19:41:59.823 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 4368 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 19:41:59.825 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 19:41:59.826 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[WARN ] 2022-11-27 19:42:00.230 [main] GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes\ru\netology\cardtransferback\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.cardtransferback.service.TransactionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[INFO ] 2022-11-27 19:42:00.232 [main] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2022-11-27 19:42:00.236 [main] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.netology.cardtransferback.controller.TransferController required a bean of type 'ru.netology.cardtransferback.service.TransactionService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.netology.cardtransferback.service.TransactionService' in your configuration.
+
+[ERROR] 2022-11-27 19:42:00.237 [main] TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1e76afeb] to prepare test instance [ru.netology.cardtransferback.TransferControllerTest@447fa959]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.7.5.jar:2.7.5]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:364) ~[?:?]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) ~[junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) ~[junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) ~[idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) ~[junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) ~[junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) ~[junit-rt.jar:?]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes\ru\netology\cardtransferback\controller\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.cardtransferback.service.TransactionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) ~[spring-boot-test-2.7.5.jar:2.7.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.23.jar:5.3.23]
+	... 72 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'ru.netology.cardtransferback.service.TransactionService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) ~[spring-boot-test-2.7.5.jar:2.7.5]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141) ~[spring-test-5.3.23.jar:5.3.23]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90) ~[spring-test-5.3.23.jar:5.3.23]
+	... 72 more
+[INFO ] 2022-11-27 19:43:18.431 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 7476 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 19:43:18.449 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 19:43:18.451 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-27 19:43:20.885 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-27 19:43:20.886 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-27 19:43:20.890 [main] TestDispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2022-11-27 19:43:20.947 [main] TransferControllerTest - Started TransferControllerTest in 3.486 seconds (JVM running for 6.998)
+[WARN ] 2022-11-27 19:43:21.175 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-27 20:36:24.623 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 6040 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 20:36:24.646 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 20:36:24.649 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-27 20:36:27.009 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-27 20:36:27.010 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-27 20:36:27.013 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-27 20:36:27.068 [main] TransferControllerTest - Started TransferControllerTest in 3.351 seconds (JVM running for 6.821)
+[WARN ] 2022-11-27 20:36:27.270 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-27 20:38:19.920 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 2880 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 20:38:19.942 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 20:38:19.944 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-27 20:38:22.260 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-27 20:38:22.260 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-27 20:38:22.263 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-27 20:38:22.339 [main] TransferControllerTest - Started TransferControllerTest in 3.358 seconds (JVM running for 6.742)
+[WARN ] 2022-11-27 20:38:22.504 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-27 20:39:51.570 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 9544 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 20:39:51.588 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 20:39:51.591 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-27 20:39:54.855 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-27 20:39:54.856 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-27 20:39:54.858 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-27 20:39:54.928 [main] TransferControllerTest - Started TransferControllerTest in 4.252 seconds (JVM running for 6.524)
+[WARN ] 2022-11-27 20:39:55.094 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-27 20:41:42.239 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 8912 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-27 20:41:42.260 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-27 20:41:42.263 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-27 20:41:45.795 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-27 20:41:45.795 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-27 20:41:45.798 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-27 20:41:45.869 [main] TransferControllerTest - Started TransferControllerTest in 4.547 seconds (JVM running for 6.887)
+[WARN ] 2022-11-27 20:41:46.025 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 13:00:39.017 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 9916 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:00:39.042 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:00:39.044 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:00:41.673 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:00:41.673 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:00:41.675 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 13:00:41.726 [main] TransferControllerTest - Started TransferControllerTest in 3.464 seconds (JVM running for 5.997)
+[WARN ] 2022-11-28 13:00:41.864 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 13:02:32.518 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 1580 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:02:32.534 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:02:32.536 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:02:34.925 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:02:34.926 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:02:34.928 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 13:02:34.979 [main] TransferControllerTest - Started TransferControllerTest in 3.147 seconds (JVM running for 5.247)
+[WARN ] 2022-11-28 13:02:35.145 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 13:03:25.704 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 12360 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:03:25.721 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:03:25.723 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:03:28.189 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:03:28.190 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:03:28.191 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-28 13:03:28.236 [main] TransferControllerTest - Started TransferControllerTest in 3.301 seconds (JVM running for 5.563)
+[WARN ] 2022-11-28 13:03:28.375 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 13:04:04.990 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 11796 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:04:05.007 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:04:05.009 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:04:07.667 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:04:07.667 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:04:07.669 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 13:04:07.715 [main] TransferControllerTest - Started TransferControllerTest in 3.42 seconds (JVM running for 5.786)
+[WARN ] 2022-11-28 13:04:07.856 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 13:05:08.975 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 1296 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:05:08.992 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:05:08.993 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:05:11.443 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:05:11.444 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:05:11.445 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-28 13:05:11.496 [main] TransferControllerTest - Started TransferControllerTest in 3.219 seconds (JVM running for 5.292)
+[WARN ] 2022-11-28 13:05:11.607 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[INFO ] 2022-11-28 13:07:10.381 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 10444 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:07:10.397 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:07:10.399 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:07:12.884 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:07:12.884 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:07:12.886 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 13:07:12.937 [main] TransferControllerTest - Started TransferControllerTest in 3.304 seconds (JVM running for 5.392)
+[WARN ] 2022-11-28 13:07:13.059 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 13:11:53.019 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.2 on DESKTOP-665TO4S with PID 8828 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 13:11:53.039 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 13:11:53.041 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 13:11:55.525 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 13:11:55.525 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 13:11:55.526 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-28 13:11:55.571 [main] TransferControllerTest - Started TransferControllerTest in 3.321 seconds (JVM running for 5.855)
+[WARN ] 2022-11-28 13:11:55.785 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 14:59:52.673 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 9896 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 14:59:52.717 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 14:59:52.719 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 14:59:56.717 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 14:59:56.718 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 14:59:56.720 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 14:59:56.793 [main] TransferControllerTest - Started TransferControllerTest in 5.693 seconds (JVM running for 10.264)
+[WARN ] 2022-11-28 14:59:57.138 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 15:00:39.977 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 9124 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:00:40.005 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:00:40.019 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:00:43.524 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:00:43.525 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:00:43.527 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:00:43.584 [main] TransferControllerTest - Started TransferControllerTest in 4.576 seconds (JVM running for 7.047)
+[INFO ] 2022-11-28 15:13:31.361 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 2476 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:13:31.380 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:13:31.384 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:13:34.579 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:13:34.580 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:13:34.582 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:13:34.636 [main] TransferControllerTest - Started TransferControllerTest in 4.223 seconds (JVM running for 6.772)
+[WARN ] 2022-11-28 15:13:34.779 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 15:15:15.737 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 5108 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:15:15.757 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:15:15.759 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:15:19.165 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:15:19.166 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:15:19.168 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:15:19.217 [main] TransferControllerTest - Started TransferControllerTest in 4.368 seconds (JVM running for 6.728)
+[WARN ] 2022-11-28 15:15:19.332 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 15:23:23.649 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 704 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:23:23.676 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:23:23.678 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:23:26.995 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:23:26.995 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:23:26.997 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:23:27.050 [main] TransferControllerTest - Started TransferControllerTest in 4.276 seconds (JVM running for 6.885)
+[WARN ] 2022-11-28 15:23:27.205 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 15:40:46.652 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 8024 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:40:46.674 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:40:46.676 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:40:50.026 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:40:50.027 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:40:50.029 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:40:50.085 [main] TransferControllerTest - Started TransferControllerTest in 4.331 seconds (JVM running for 6.77)
+[WARN ] 2022-11-28 15:40:50.317 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 15:42:45.088 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 5692 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:42:45.108 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:42:45.110 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:42:48.399 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:42:48.399 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:42:48.401 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:42:48.449 [main] TransferControllerTest - Started TransferControllerTest in 4.282 seconds (JVM running for 6.71)
+[INFO ] 2022-11-28 15:43:46.434 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 2580 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:43:46.458 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:43:46.464 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:43:49.646 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:43:49.646 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:43:49.648 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:43:49.717 [main] TransferControllerTest - Started TransferControllerTest in 4.2 seconds (JVM running for 6.522)
+[INFO ] 2022-11-28 15:46:35.966 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 380 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:46:35.991 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:46:35.993 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:46:39.765 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:46:39.766 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:46:39.768 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:46:39.829 [main] TransferControllerTest - Started TransferControllerTest in 4.875 seconds (JVM running for 7.323)
+[WARN ] 2022-11-28 15:46:40.110 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 15:46:53.005 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 2320 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 15:46:53.023 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 15:46:53.024 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 15:46:56.202 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 15:46:56.203 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 15:46:56.205 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 15:46:56.282 [main] TransferControllerTest - Started TransferControllerTest in 4.175 seconds (JVM running for 6.53)
+[WARN ] 2022-11-28 15:46:56.507 [main] DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<ru.netology.cardtransferback.model.Operation> ru.netology.cardtransferback.controller.TransferController.transferTransaction(ru.netology.cardtransferback.model.Transaction)]
+[INFO ] 2022-11-28 16:12:18.828 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 4676 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:12:18.852 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:12:18.854 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:12:22.085 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:12:22.086 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:12:22.088 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 16:12:22.144 [main] TransferControllerTest - Started TransferControllerTest in 4.228 seconds (JVM running for 6.594)
+[INFO ] 2022-11-28 16:14:23.933 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 6176 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:14:23.954 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:14:23.956 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:14:27.145 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:14:27.145 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:14:27.147 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 16:14:27.201 [main] TransferControllerTest - Started TransferControllerTest in 4.176 seconds (JVM running for 6.515)
+[INFO ] 2022-11-28 16:31:01.138 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 9320 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:31:01.159 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:31:01.161 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:31:04.494 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:31:04.495 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:31:04.497 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 16:31:04.569 [main] TransferControllerTest - Started TransferControllerTest in 4.326 seconds (JVM running for 6.713)
+[INFO ] 2022-11-28 16:44:57.212 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 11508 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:44:57.234 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:44:57.238 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:45:00.447 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:45:00.448 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:45:00.450 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 16:45:00.503 [main] TransferControllerTest - Started TransferControllerTest in 4.211 seconds (JVM running for 6.565)
+[INFO ] 2022-11-28 16:47:56.180 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 11332 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:47:56.229 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:47:56.232 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:47:59.107 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 1256 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:47:59.165 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:47:59.170 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:48:04.616 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:48:04.617 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:48:04.620 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-28 16:48:04.769 [main] TransferControllerTest - Started TransferControllerTest in 10.783 seconds (JVM running for 16.549)
+[INFO ] 2022-11-28 16:48:06.605 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:48:06.605 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:48:06.609 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-28 16:48:06.723 [main] TransferControllerTest - Started TransferControllerTest in 9.287 seconds (JVM running for 14.564)
+[INFO ] 2022-11-28 16:49:11.982 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 11156 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:49:12.003 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:49:12.005 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:49:15.282 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:49:15.282 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:49:15.284 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 16:49:15.343 [main] TransferControllerTest - Started TransferControllerTest in 4.31 seconds (JVM running for 6.682)
+[INFO ] 2022-11-28 16:49:43.462 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 2732 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 16:49:43.483 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 16:49:43.485 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 16:49:46.654 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 16:49:46.655 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 16:49:46.657 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 16:49:46.729 [main] TransferControllerTest - Started TransferControllerTest in 4.253 seconds (JVM running for 6.589)
+[INFO ] 2022-11-28 20:28:50.469 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 17.0.5 on DESKTOP-2I7RGUC with PID 6720 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 20:28:50.586 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 20:28:50.604 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 20:28:56.102 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-28 20:28:56.202 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 6.759 seconds (JVM running for 9.689)
+[INFO ] 2022-11-28 20:28:57.720 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-28 20:28:57.722 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-28 20:28:57.723 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-28 20:28:57.783 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-28 20:28:57.786 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-28 20:28:57.789 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@199806aa, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@300aa927, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@fa11fda, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@24e1e90a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7d95166a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@18b3db6e, org.springframework.test.context.event.EventPublishingTestExecutionListener@1feb586d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@34695b23, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@611a2d82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6774f264, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2299f6d7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5cd701e4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6c9151c1]
+[INFO ] 2022-11-28 20:28:57.887 [main] TransferControllerTest - Starting TransferControllerTest using Java 17.0.5 on DESKTOP-2I7RGUC with PID 6720 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 20:28:57.889 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 20:28:57.891 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 20:28:58.818 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 20:28:58.819 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 20:28:58.820 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-28 20:28:58.850 [main] TransferControllerTest - Started TransferControllerTest in 1.056 seconds (JVM running for 12.336)
+[INFO ] 2022-11-28 21:27:04.132 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11.0.16 on DESKTOP-2I7RGUC with PID 13572 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 21:27:04.149 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 21:27:04.151 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 21:27:04.230 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-28 21:27:04.230 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-28 21:27:07.048 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-28 21:27:07.089 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-28 21:27:07.090 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-28 21:27:07.328 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-28 21:27:07.328 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3096 ms
+[INFO ] 2022-11-28 21:27:08.474 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-28 21:27:08.482 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-28 21:27:08.537 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-28 21:27:08.557 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 5.178 seconds (JVM running for 7.296)
+[INFO ] 2022-11-28 21:27:09.639 [RMI TCP Connection(2)-172.20.192.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-28 21:27:09.640 [RMI TCP Connection(2)-172.20.192.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-28 21:27:09.642 [RMI TCP Connection(2)-172.20.192.1] DispatcherServlet - Completed initialization in 2 ms
+[DEBUG] 2022-11-28 21:27:39.389 [http-nio-5500-exec-2] TransferController - Перевод с карты 1111222233334444 на карту 5555666677778888 сумма перевода 100000, валюта перевода RUR
+[DEBUG] 2022-11-28 21:27:39.417 [http-nio-5500-exec-4] TransferController - Перевод выполнен! Id перевода: 7456295718432279872, код подтверждения 0000
+[INFO ] 2022-11-28 21:28:23.383 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.16 on DESKTOP-2I7RGUC with PID 2156 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 21:28:23.411 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 21:28:23.414 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 21:28:27.528 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 21:28:27.528 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 21:28:27.530 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-28 21:28:27.591 [main] TransferControllerTest - Started TransferControllerTest in 5.576 seconds (JVM running for 8.558)
+[INFO ] 2022-11-28 21:58:38.022 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11.0.16 on DESKTOP-2I7RGUC with PID 13520 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 21:58:38.045 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 21:58:38.053 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 21:58:43.412 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-28 21:58:43.591 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 6.425 seconds (JVM running for 9.653)
+[INFO ] 2022-11-28 21:58:45.205 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-28 21:58:45.211 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-28 21:58:45.211 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-28 21:58:45.279 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-28 21:58:45.280 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-28 21:58:45.283 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@124ff64d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@75aa7703, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@79777da7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3395c2a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5e05a706, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7831d1aa, org.springframework.test.context.event.EventPublishingTestExecutionListener@3a69014e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27746c5e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@543ac221, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2270f58d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50e1f3fc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@54737322, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@56da8847]
+[INFO ] 2022-11-28 21:58:45.418 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.16 on DESKTOP-2I7RGUC with PID 13520 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-28 21:58:45.421 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-28 21:58:45.422 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-28 21:58:46.645 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-28 21:58:46.646 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-28 21:58:46.648 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-28 21:58:46.694 [main] TransferControllerTest - Started TransferControllerTest in 1.404 seconds (JVM running for 12.756)
+[INFO ] 2022-11-29 15:58:26.270 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11 on DESKTOP-665TO4S with PID 11236 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 15:58:26.295 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 15:58:26.297 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 15:58:30.304 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 15:58:30.392 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 4.76 seconds (JVM running for 7.291)
+[INFO ] 2022-11-29 15:58:31.343 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-29 15:58:31.344 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-29 15:58:31.345 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-29 15:58:31.375 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-29 15:58:31.376 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-29 15:58:31.378 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@495e8a3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6a7aa675, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6eded11a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@602a3237, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4b511e61, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74a74070, org.springframework.test.context.event.EventPublishingTestExecutionListener@6c6919ff, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5de335cf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e029a04, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50e8ed74, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74eab077, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3063be68, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3a3bc0da]
+[INFO ] 2022-11-29 15:58:31.425 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 11236 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 15:58:31.426 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 15:58:31.427 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 15:58:32.316 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 15:58:32.316 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 15:58:32.319 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-29 15:58:32.341 [main] TransferControllerTest - Started TransferControllerTest in 0.959 seconds (JVM running for 9.241)
+[INFO ] 2022-11-29 17:23:43.640 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11 on DESKTOP-665TO4S with PID 12160 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 17:23:43.661 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 17:23:43.663 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 17:23:47.788 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 17:23:47.877 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 4.836 seconds (JVM running for 7.305)
+[INFO ] 2022-11-29 17:23:48.791 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-29 17:23:48.793 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-29 17:23:48.794 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-29 17:23:48.838 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-29 17:23:48.841 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-29 17:23:48.844 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3063be68, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a3bc0da, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2d2f09a4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c677d7e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@215a0264, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45832b85, org.springframework.test.context.event.EventPublishingTestExecutionListener@103478b8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@270f7b4d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@56b704ea, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@ab4d2ba, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39f68aec, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@65ff4b8c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@b81938d]
+[INFO ] 2022-11-29 17:23:48.910 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 12160 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 17:23:48.912 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 17:23:48.913 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 17:23:49.673 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 17:23:49.674 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 17:23:49.676 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-29 17:23:49.697 [main] TransferControllerTest - Started TransferControllerTest in 0.845 seconds (JVM running for 9.125)
+[INFO ] 2022-11-29 17:28:44.787 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11 on DESKTOP-665TO4S with PID 12440 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 17:28:44.808 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 17:28:44.811 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 17:28:48.742 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 17:28:48.828 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 4.628 seconds (JVM running for 7.121)
+[INFO ] 2022-11-29 17:28:49.874 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-29 17:28:49.877 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-29 17:28:49.878 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-29 17:28:49.922 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-29 17:28:49.923 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-29 17:28:49.925 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74a74070, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6c6919ff, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5de335cf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e029a04, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@50e8ed74, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74eab077, org.springframework.test.context.event.EventPublishingTestExecutionListener@3063be68, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a3bc0da, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2d2f09a4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c677d7e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@215a0264, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45832b85, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@103478b8]
+[INFO ] 2022-11-29 17:28:49.982 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 12440 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 17:28:49.984 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 17:28:49.984 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 17:28:50.692 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 17:28:50.693 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 17:28:50.694 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-11-29 17:28:50.715 [main] TransferControllerTest - Started TransferControllerTest in 0.787 seconds (JVM running for 9.009)
+[INFO ] 2022-11-29 20:19:42.659 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11 on DESKTOP-665TO4S with PID 1632 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:19:42.690 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:19:42.694 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:19:49.133 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 20:19:49.268 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 7.522 seconds (JVM running for 11.527)
+[INFO ] 2022-11-29 20:19:50.971 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-29 20:19:50.975 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-29 20:19:50.976 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-29 20:19:51.068 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-29 20:19:51.072 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-29 20:19:51.076 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@602a3237, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b511e61, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@74a74070, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c6919ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5de335cf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e029a04, org.springframework.test.context.event.EventPublishingTestExecutionListener@50e8ed74, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74eab077, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3063be68, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3a3bc0da, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d2f09a4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c677d7e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@215a0264]
+[INFO ] 2022-11-29 20:19:51.216 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 1632 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:19:51.220 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:19:51.221 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:19:52.638 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 20:19:52.639 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 20:19:52.643 [main] TestDispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2022-11-29 20:19:52.684 [main] TransferControllerTest - Started TransferControllerTest in 1.595 seconds (JVM running for 14.943)
+[INFO ] 2022-11-29 20:38:21.075 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 5548 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:38:21.101 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:38:21.104 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:38:26.143 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 20:38:26.144 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 20:38:26.146 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-29 20:38:26.235 [main] TransferControllerTest - Started TransferControllerTest in 6.383 seconds (JVM running for 10.852)
+[INFO ] 2022-11-29 20:42:50.278 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 6908 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:42:50.309 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:42:50.313 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:42:55.239 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 20:42:55.240 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 20:42:55.243 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-29 20:42:55.321 [main] TransferControllerTest - Started TransferControllerTest in 6.23 seconds (JVM running for 10.562)
+[INFO ] 2022-11-29 20:43:18.707 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 5228 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:43:18.734 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:43:18.738 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:43:23.626 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 20:43:23.627 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 20:43:23.629 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-11-29 20:43:23.705 [main] TransferControllerTest - Started TransferControllerTest in 6.147 seconds (JVM running for 10.179)
+[INFO ] 2022-11-29 20:43:57.200 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 7436 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:43:57.220 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:43:57.222 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:43:57.318 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 20:43:57.320 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 20:44:00.074 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 20:44:00.112 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 20:44:00.113 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 20:44:00.248 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 20:44:00.248 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2922 ms
+[INFO ] 2022-11-29 20:44:01.557 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 20:44:01.569 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 20:44:01.661 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-29 20:44:01.691 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 5.602 seconds (JVM running for 8.403)
+[INFO ] 2022-11-29 20:44:02.824 [RMI TCP Connection(3)-172.26.224.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:44:02.826 [RMI TCP Connection(3)-172.26.224.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:44:02.836 [RMI TCP Connection(3)-172.26.224.1] DispatcherServlet - Completed initialization in 7 ms
+[DEBUG] 2022-11-29 20:44:43.078 [http-nio-5500-exec-1] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 10000, валюта перевода RUR
+[WARN ] 2022-11-29 20:44:43.117 [http-nio-5500-exec-1] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[DEBUG] 2022-11-29 20:45:00.927 [http-nio-5500-exec-3] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 10000, валюта перевода RUR
+[WARN ] 2022-11-29 20:45:00.933 [http-nio-5500-exec-3] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[DEBUG] 2022-11-29 20:45:30.780 [http-nio-5500-exec-5] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 20000, валюта перевода RUR
+[WARN ] 2022-11-29 20:45:30.785 [http-nio-5500-exec-5] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[INFO ] 2022-11-29 20:50:42.407 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 12756 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:50:42.431 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:50:42.433 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:50:42.544 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 20:50:42.544 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 20:50:45.391 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 20:50:45.435 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 20:50:45.436 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 20:50:45.568 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 20:50:45.569 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3022 ms
+[INFO ] 2022-11-29 20:50:47.089 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 20:50:47.112 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 20:50:47.342 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-29 20:50:47.383 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 6.176 seconds (JVM running for 9.309)
+[INFO ] 2022-11-29 20:50:48.815 [RMI TCP Connection(2)-172.26.224.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:50:48.816 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:50:48.823 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Completed initialization in 5 ms
+[DEBUG] 2022-11-29 20:51:00.379 [http-nio-5500-exec-1] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 10000, валюта перевода RUR
+[WARN ] 2022-11-29 20:51:00.468 [http-nio-5500-exec-1] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[INFO ] 2022-11-29 20:53:12.217 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 11016 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:53:12.239 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:53:12.242 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:53:12.360 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 20:53:12.360 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 20:53:15.019 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 20:53:15.058 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 20:53:15.059 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 20:53:15.191 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 20:53:15.192 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2830 ms
+[INFO ] 2022-11-29 20:53:16.549 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 20:53:16.573 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 20:53:16.698 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-29 20:53:16.752 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 5.706 seconds (JVM running for 8.803)
+[INFO ] 2022-11-29 20:53:17.263 [RMI TCP Connection(2)-172.26.224.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:53:17.265 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:53:17.270 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Completed initialization in 5 ms
+[DEBUG] 2022-11-29 20:53:27.436 [http-nio-5500-exec-2] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 10000, валюта перевода RUR
+[WARN ] 2022-11-29 20:53:27.485 [http-nio-5500-exec-2] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[DEBUG] 2022-11-29 20:54:19.464 [http-nio-5500-exec-4] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 20000, валюта перевода RUR
+[WARN ] 2022-11-29 20:54:19.468 [http-nio-5500-exec-4] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[INFO ] 2022-11-29 20:57:31.197 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 12340 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 20:57:31.215 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 20:57:31.217 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 20:57:31.324 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 20:57:31.325 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 20:57:33.896 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 20:57:33.954 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 20:57:33.955 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 20:57:34.109 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 20:57:34.109 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2783 ms
+[INFO ] 2022-11-29 20:57:35.409 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 20:57:35.425 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 20:57:35.522 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-29 20:57:35.551 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 5.497 seconds (JVM running for 8.207)
+[INFO ] 2022-11-29 20:57:36.390 [RMI TCP Connection(3)-172.26.224.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:57:36.392 [RMI TCP Connection(3)-172.26.224.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-29 20:57:36.394 [RMI TCP Connection(3)-172.26.224.1] DispatcherServlet - Completed initialization in 2 ms
+[DEBUG] 2022-11-29 20:58:32.576 [http-nio-5500-exec-1] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 1000, валюта перевода RUR
+[WARN ] 2022-11-29 20:58:32.629 [http-nio-5500-exec-1] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[DEBUG] 2022-11-29 20:59:25.370 [http-nio-5500-exec-3] TransferController - Перевод с карты 1111222233334444 на карту 5555666677778888 сумма перевода 10000000, валюта перевода RUR
+[WARN ] 2022-11-29 20:59:25.385 [http-nio-5500-exec-3] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NotEnoughMoneyException: Недостаточно средств]
+[DEBUG] 2022-11-29 20:59:35.330 [http-nio-5500-exec-4] TransferController - Перевод с карты 1111222233334444 на карту 5555666677778888 сумма перевода 1000000, валюта перевода RUR
+[WARN ] 2022-11-29 20:59:35.333 [http-nio-5500-exec-4] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NotEnoughMoneyException: Недостаточно средств]
+[DEBUG] 2022-11-29 21:00:04.979 [http-nio-5500-exec-5] TransferController - Перевод с карты 1111222233334444 на карту 5555666677778888 сумма перевода 100000, валюта перевода RUR
+[DEBUG] 2022-11-29 21:00:05.178 [http-nio-5500-exec-7] TransferController - Перевод выполнен! Id перевода: 2697843671086942720, код подтверждения 0000
+[INFO ] 2022-11-29 21:01:42.919 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 11672 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 21:01:42.945 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 21:01:42.950 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 21:01:43.105 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 21:01:43.106 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 21:01:46.168 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 21:01:46.210 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 21:01:46.211 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 21:01:46.390 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 21:01:46.391 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3283 ms
+[INFO ] 2022-11-29 21:01:47.845 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 21:01:47.859 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 21:01:47.954 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-29 21:01:47.987 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 6.296 seconds (JVM running for 9.144)
+[INFO ] 2022-11-29 21:01:48.933 [RMI TCP Connection(2)-172.26.224.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-29 21:01:48.935 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-29 21:01:48.939 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-29 21:02:05.841 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 13304 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 21:02:05.864 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 21:02:05.867 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 21:02:05.995 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 21:02:05.996 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 21:02:08.914 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 21:02:08.949 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 21:02:08.950 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 21:02:09.079 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 21:02:09.080 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3081 ms
+[INFO ] 2022-11-29 21:04:11.758 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 21:04:11.784 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 21:04:42.002 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11 on DESKTOP-665TO4S with PID 13388 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 21:04:42.027 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 21:04:42.030 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 21:04:48.907 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 21:04:49.055 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 8.158 seconds (JVM running for 12.453)
+[INFO ] 2022-11-29 21:04:50.698 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-11-29 21:04:50.701 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-11-29 21:04:50.702 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-11-29 21:04:50.791 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-11-29 21:04:50.794 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-11-29 21:04:50.802 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@bea5941, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@df6f19b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6d842877, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@614cbec4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3835d3fd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2759749, org.springframework.test.context.event.EventPublishingTestExecutionListener@4efed0e0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ac0ed65, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c7c75fb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@729d6ee2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4adcc981, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@73aae7a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3856d0cb]
+[INFO ] 2022-11-29 21:04:50.905 [main] TransferControllerTest - Starting TransferControllerTest using Java 11 on DESKTOP-665TO4S with PID 13388 (started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 21:04:50.908 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 21:04:50.909 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 21:04:52.267 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-11-29 21:04:52.268 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-11-29 21:04:52.271 [main] TestDispatcherServlet - Completed initialization in 3 ms
+[INFO ] 2022-11-29 21:04:52.344 [main] TransferControllerTest - Started TransferControllerTest in 1.529 seconds (JVM running for 15.741)
+[INFO ] 2022-11-29 21:12:35.092 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 5168 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 21:12:35.121 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 21:12:35.124 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 21:12:35.207 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 21:12:35.209 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 21:12:37.783 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 21:12:39.183 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 21:12:39.184 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 21:12:39.355 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 21:12:39.355 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4144 ms
+[INFO ] 2022-11-29 21:12:40.818 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 21:12:40.831 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[WARN ] 2022-11-29 21:12:40.906 [restartedMain] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 5500 is already in use
+[INFO ] 2022-11-29 21:12:40.922 [restartedMain] StandardService - Stopping service [Tomcat]
+[INFO ] 2022-11-29 21:12:40.966 [restartedMain] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2022-11-29 21:12:41.006 [restartedMain] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5500 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5500 or configure this application to listen on another port.
+
+[INFO ] 2022-11-29 21:14:06.067 [restartedMain] CardTransferBackApplication - Starting CardTransferBackApplication using Java 11 on DESKTOP-665TO4S with PID 12320 (F:\JavaProjects\Для Портфолио\card-transfer-back\target\classes started by Пользователь1 in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-11-29 21:14:06.088 [restartedMain] CardTransferBackApplication - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-11-29 21:14:06.091 [restartedMain] CardTransferBackApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-11-29 21:14:06.196 [restartedMain] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2022-11-29 21:14:06.197 [restartedMain] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2022-11-29 21:14:08.886 [restartedMain] TomcatWebServer - Tomcat initialized with port(s): 5500 (http)
+[INFO ] 2022-11-29 21:14:08.930 [restartedMain] StandardService - Starting service [Tomcat]
+[INFO ] 2022-11-29 21:14:08.931 [restartedMain] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-11-29 21:14:09.099 [restartedMain] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-11-29 21:14:09.100 [restartedMain] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2900 ms
+[INFO ] 2022-11-29 21:14:10.524 [restartedMain] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2022-11-29 21:14:10.541 [restartedMain] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-11-29 21:14:10.656 [restartedMain] TomcatWebServer - Tomcat started on port(s): 5500 (http) with context path ''
+[INFO ] 2022-11-29 21:14:10.700 [restartedMain] CardTransferBackApplication - Started CardTransferBackApplication in 5.702 seconds (JVM running for 8.746)
+[INFO ] 2022-11-29 21:14:11.581 [RMI TCP Connection(2)-172.26.224.1] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2022-11-29 21:14:11.583 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2022-11-29 21:14:11.586 [RMI TCP Connection(2)-172.26.224.1] DispatcherServlet - Completed initialization in 3 ms
+[DEBUG] 2022-11-29 21:14:37.605 [http-nio-5500-exec-1] TransferController - Перевод с карты 1111222233334445 на карту 5555666677778888 сумма перевода 1000, валюта перевода RUR
+[WARN ] 2022-11-29 21:14:37.671 [http-nio-5500-exec-1] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NoCardException: Карты отправителя или получателя не существует.Проверьте правильность ввода]
+[DEBUG] 2022-11-29 21:15:25.768 [http-nio-5500-exec-3] TransferController - Перевод с карты 1111222233334444 на карту 5555666677778888 сумма перевода 10000000, валюта перевода RUR
+[WARN ] 2022-11-29 21:15:25.772 [http-nio-5500-exec-3] ExceptionHandlerExceptionResolver - Resolved [ru.netology.cardtransferback.exception.NotEnoughMoneyException: Недостаточно средств]
+[INFO ] 2022-12-01 20:25:01.471 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11.0.16 on DESKTOP-2I7RGUC with PID 10476 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:25:01.526 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:25:01.528 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:25:05.916 [main] TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2022-12-01 20:25:05.954 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-12-01 20:25:05.955 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-12-01 20:25:06.409 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-12-01 20:25:06.409 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3661 ms
+[INFO ] 2022-12-01 20:25:08.377 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-12-01 20:25:08.928 [main] TomcatWebServer - Tomcat started on port(s): 51561 (http) with context path ''
+[INFO ] 2022-12-01 20:25:08.966 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 8.939 seconds (JVM running for 13.551)
+[INFO ] 2022-12-01 20:25:10.074 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-12-01 20:25:10.081 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-12-01 20:25:10.083 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-12-01 20:25:10.262 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-12-01 20:25:10.264 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-12-01 20:25:10.267 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2c92f094, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c3b221f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@750c23a3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@238280df, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@182fd26b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5dc120ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@49c4118b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ef7f414, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@182dcd2b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c3d72fd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@259c6ab8, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@640a6d4b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1238a074]
+[INFO ] 2022-12-01 20:25:10.372 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.16 on DESKTOP-2I7RGUC with PID 10476 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:25:10.376 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:25:10.377 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:25:11.507 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-12-01 20:25:11.508 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-12-01 20:25:11.510 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-12-01 20:25:11.540 [main] TransferControllerTest - Started TransferControllerTest in 1.245 seconds (JVM running for 16.125)
+[INFO ] 2022-12-01 20:26:45.154 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11.0.16 on DESKTOP-2I7RGUC with PID 10896 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:26:45.169 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:26:45.171 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:26:47.923 [main] TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2022-12-01 20:26:47.943 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-12-01 20:26:47.943 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-12-01 20:26:48.311 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-12-01 20:26:48.312 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2584 ms
+[INFO ] 2022-12-01 20:26:50.130 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-12-01 20:26:50.527 [main] TomcatWebServer - Tomcat started on port(s): 51575 (http) with context path ''
+[INFO ] 2022-12-01 20:26:50.548 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 6.095 seconds (JVM running for 9.615)
+[INFO ] 2022-12-01 20:27:11.011 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11.0.16 on DESKTOP-2I7RGUC with PID 2588 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:27:11.036 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:27:11.043 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:27:13.875 [main] TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2022-12-01 20:27:13.892 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-12-01 20:27:13.893 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-12-01 20:27:14.248 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-12-01 20:27:14.249 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2496 ms
+[INFO ] 2022-12-01 20:27:15.937 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-12-01 20:27:16.393 [main] TomcatWebServer - Tomcat started on port(s): 51583 (http) with context path ''
+[INFO ] 2022-12-01 20:27:16.432 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 6.244 seconds (JVM running for 8.999)
+[INFO ] 2022-12-01 20:27:17.519 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-12-01 20:27:17.521 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-12-01 20:27:17.521 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-12-01 20:27:17.578 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-12-01 20:27:17.580 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-12-01 20:27:17.584 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c3d72fd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@259c6ab8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@640a6d4b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1238a074, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@35b58254, org.springframework.test.context.support.DirtiesContextTestExecutionListener@73baf7f0, org.springframework.test.context.event.EventPublishingTestExecutionListener@446dacf9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13018f00, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@abf1816, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2e1e7bc6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7bd1098, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@185bf6e0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6a562255]
+[INFO ] 2022-12-01 20:27:17.668 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.16 on DESKTOP-2I7RGUC with PID 2588 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:27:17.673 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:27:17.674 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:27:18.886 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-12-01 20:27:18.890 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-12-01 20:27:18.894 [main] TestDispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2022-12-01 20:27:18.943 [main] TransferControllerTest - Started TransferControllerTest in 1.346 seconds (JVM running for 11.51)
+[INFO ] 2022-12-01 20:29:35.636 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11.0.16 on DESKTOP-2I7RGUC with PID 10400 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:29:35.697 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:29:35.701 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:29:40.019 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-12-01 20:29:40.135 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 5.251 seconds (JVM running for 7.89)
+[INFO ] 2022-12-01 20:29:41.369 [main] WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ru.netology.cardtransferback.TransferControllerTest], using SpringBootContextLoader
+[INFO ] 2022-12-01 20:29:41.380 [main] AbstractContextLoader - Could not detect default resource locations for test class [ru.netology.cardtransferback.TransferControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+[INFO ] 2022-12-01 20:29:41.380 [main] AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.netology.cardtransferback.TransferControllerTest]: TransferControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[INFO ] 2022-12-01 20:29:41.424 [main] SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.netology.cardtransferback.CardTransferBackApplication for test class ru.netology.cardtransferback.TransferControllerTest
+[INFO ] 2022-12-01 20:29:41.425 [main] WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener]
+[INFO ] 2022-12-01 20:29:41.427 [main] WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@35d4035f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f4fc83f, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@66b90ab3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16e4db59, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33fec21, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12a0d249, org.springframework.test.context.event.EventPublishingTestExecutionListener@3c62be3c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@c6c84fa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@70ce2fb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@64688978, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d525897, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@25f14e93, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@24435620]
+[INFO ] 2022-12-01 20:29:41.535 [main] TransferControllerTest - Starting TransferControllerTest using Java 11.0.16 on DESKTOP-2I7RGUC with PID 10400 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:29:41.547 [main] TransferControllerTest - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:29:41.554 [main] TransferControllerTest - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:29:42.358 [main] SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+[INFO ] 2022-12-01 20:29:42.359 [main] TestDispatcherServlet - Initializing Servlet ''
+[INFO ] 2022-12-01 20:29:42.361 [main] TestDispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2022-12-01 20:29:42.394 [main] TransferControllerTest - Started TransferControllerTest in 0.962 seconds (JVM running for 10.148)
+[INFO ] 2022-12-01 20:39:58.309 [main] CardTransferBackApplicationTests - Starting CardTransferBackApplicationTests using Java 11.0.16 on DESKTOP-2I7RGUC with PID 2728 (started by Parhoms in F:\JavaProjects\Для Портфолио\card-transfer-back)
+[DEBUG] 2022-12-01 20:39:58.330 [main] CardTransferBackApplicationTests - Running with Spring Boot v2.7.5, Spring v5.3.23
+[INFO ] 2022-12-01 20:39:58.332 [main] CardTransferBackApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2022-12-01 20:40:01.936 [main] TomcatWebServer - Tomcat initialized with port(s): 0 (http)
+[INFO ] 2022-12-01 20:40:01.959 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2022-12-01 20:40:01.959 [main] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+[INFO ] 2022-12-01 20:40:02.297 [main] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2022-12-01 20:40:02.298 [main] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3411 ms
+[INFO ] 2022-12-01 20:40:04.387 [main] EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+[INFO ] 2022-12-01 20:40:04.803 [main] TomcatWebServer - Tomcat started on port(s): 51665 (http) with context path ''
+[INFO ] 2022-12-01 20:40:04.830 [main] CardTransferBackApplicationTests - Started CardTransferBackApplicationTests in 7.353 seconds (JVM running for 10.834)
+[INFO ] 2022-12-01 20:40:06.428 [main] DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+[INFO ] 2022-12-01 20:40:06.432 [main] DockerClientFactory - Docker host IP address is localhost
+[INFO ] 2022-12-01 20:40:06.468 [main] DockerClientFactory - Connected to docker: 
+  Server Version: 20.10.21
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 1984 MB
+[INFO ] 2022-12-01 20:40:06.514 [main] 4] - Pulling docker image: testcontainers/ryuk:0.3.4. Please be patient; this may take some time but only needs to be done once.
+[INFO ] 2022-12-01 20:40:09.387 [docker-java-stream-1373299746] 4] - Starting to pull image
+[INFO ] 2022-12-01 20:40:09.446 [docker-java-stream-1373299746] 4] - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+[INFO ] 2022-12-01 20:40:11.257 [docker-java-stream-1373299746] 4] - Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (730 KB/? MB)
+[INFO ] 2022-12-01 20:40:11.834 [docker-java-stream-1373299746] 4] - Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (4 MB/? MB)
+[INFO ] 2022-12-01 20:40:11.883 [docker-java-stream-1373299746] 4] - Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (4 MB/5 MB)
+[INFO ] 2022-12-01 20:40:12.411 [docker-java-stream-1373299746] 4] - Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (4 MB/5 MB)
+[INFO ] 2022-12-01 20:40:13.078 [docker-java-stream-1373299746] 4] - Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (4 MB/5 MB)
+[INFO ] 2022-12-01 20:40:13.653 [docker-java-stream-1373299746] 4] - Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (5 MB/5 MB)
+[INFO ] 2022-12-01 20:40:14.380 [docker-java-stream-1373299746] 4] - Pull complete. 3 layers, pulled in 4s (downloaded 5 MB at 1 MB/s)
+[INFO ] 2022-12-01 20:40:14.440 [main] 4] - Creating container for image: testcontainers/ryuk:0.3.4
+[INFO ] 2022-12-01 20:40:15.848 [main] 4] - Container testcontainers/ryuk:0.3.4 is starting: af3ff7b3a29a12a446327aadc3430da3b01bec547be0d7774709de18c466b760
+[INFO ] 2022-12-01 20:40:17.903 [main] 4] - Container testcontainers/ryuk:0.3.4 started in PT11.4217343S
+[INFO ] 2022-12-01 20:40:17.926 [main] RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[INFO ] 2022-12-01 20:40:17.926 [main] DockerClientFactory - Checking the system...
+[INFO ] 2022-12-01 20:40:17.928 [main] DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+[INFO ] 2022-12-01 20:40:17.929 [main] 🐳 [money-transfer:latest] - Creating container for image: money-transfer:latest
+[INFO ] 2022-12-01 20:40:18.823 [main] 🐳 [money-transfer:latest] - Container money-transfer:latest is starting: f537adcc694372ae574abab1a2b72cd62e5bb9e87d5818f82bbd02d4e5c0aaa5
+[INFO ] 2022-12-01 20:40:30.409 [main] 🐳 [money-transfer:latest] - Container money-transfer:latest started in PT12.4805852S
