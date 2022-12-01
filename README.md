@@ -9,7 +9,7 @@
   <li>Склонировать репозиторий</li>
   <li>Создать контейнер при помощи команды <i>docker-compose build</i></li>
   <li>Запустить приложение при помощи команды <i>docker-compose up</i></li>
-  <li>При помощи браузера открыть приложение по адресу<a href="https://serp-ya.github.io/card-transfer/">https://serp-ya.github.io/card-transfer/</a></li>
+  <li>При помощи браузера открыть приложение по адресу <a href="https://serp-ya.github.io/card-transfer/">https://serp-ya.github.io/card-transfer/</a></li>
   <li>Пользоваться и наслаждаться!</li>
 </ul>
 <br>
